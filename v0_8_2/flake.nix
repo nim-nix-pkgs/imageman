@@ -13,12 +13,12 @@
   inputs.src-imageman-v0_8_2.repo  = "imageman";
   inputs.src-imageman-v0_8_2.type  = "github";
   
-  inputs."stb_image".owner = "nim-nix-pkgs";
-  inputs."stb_image".ref   = "master";
-  inputs."stb_image".repo  = "stb_image";
-  inputs."stb_image".type  = "github";
-  inputs."stb_image".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."stb_image".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  #inputs."stb_image".owner = "nim-nix-pkgs";
+  #inputs."stb_image".ref   = "master";
+  #inputs."stb_image".repo  = "stb_image";
+  #inputs."stb_image".type  = "github";
+  #inputs."stb_image".inputs.nixpkgs.follows = "nixpkgs";
+  #inputs."stb_image".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
