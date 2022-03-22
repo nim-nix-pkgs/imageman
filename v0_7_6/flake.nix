@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-imageman-v0_7_6.flake = false;
+  inputs.src-imageman-v0_7_6.ref   = "refs/tags/v0.7.6";
   inputs.src-imageman-v0_7_6.owner = "SolitudeSF";
-  inputs.src-imageman-v0_7_6.ref   = "v0_7_6";
   inputs.src-imageman-v0_7_6.repo  = "imageman";
   inputs.src-imageman-v0_7_6.type  = "github";
   
