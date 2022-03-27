@@ -11,6 +11,7 @@
   inputs.src-imageman-v0_7_3.ref   = "refs/tags/v0.7.3";
   inputs.src-imageman-v0_7_3.owner = "SolitudeSF";
   inputs.src-imageman-v0_7_3.repo  = "imageman";
+  inputs.src-imageman-v0_7_3.dir   = "";
   inputs.src-imageman-v0_7_3.type  = "github";
   
   inputs."stb_image".owner = "nim-nix-pkgs";
