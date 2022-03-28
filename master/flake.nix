@@ -11,7 +11,6 @@
   inputs.src-imageman-master.ref   = "refs/heads/master";
   inputs.src-imageman-master.owner = "SolitudeSF";
   inputs.src-imageman-master.repo  = "imageman";
-  inputs.src-imageman-master.dir   = "";
   inputs.src-imageman-master.type  = "github";
   
   inputs."stb_image".owner = "nim-nix-pkgs";
